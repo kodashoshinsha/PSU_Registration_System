@@ -1,0 +1,259 @@
+body{
+    background-color: #ececec;
+}
+
+.container {
+    box-shadow: 2px 2px 25px 2px rgb(216, 216, 216);
+    border-radius: 7px;
+    width: 50%;
+    padding: 1% 3.5% 0% 3.5%;
+    margin: 2% 0% 0% 25%;
+    background-color: white;
+}
+
+.container-login {
+    box-shadow: 2px 2px 25px 2px rgb(216, 216, 216);
+    border-radius: 7px;
+    width: 45%;
+    padding: 1% 3.5% 1.5% 3.5%;
+    margin: 3% 0% 0% 29%;
+    background-color: white;
+}
+
+.image > img {
+    width: 12% ;
+    margin-left: 43%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PSU {
+    text-align: center;
+    font-size: 50vw;
+    margin-top: 15px;
+}
+
+.fields {
+    columns: 2 auto;
+}
+
+.sidebar {
+  background-color: rgb(0, 4, 221);
+  width: 16%;
+  padding-bottom: 30%;
+  position:fixed;
+
+}
+
+.sidebar > img {
+  width: 40%;
+  margin: auto;
+  display: block;
+  padding-top: 10%;
+  overflow: auto;
+}
+  
+.sidebar > h5 {
+  color: white;
+  width: 100%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.sidebar a:hover:not(.active) {
+  padding: 3px;
+}
+
+.sidebar > #active {
+  padding: 10%;
+  background-color: rgba(0, 3, 175, 0.815);
+  margin-top: 5%;
+}
+
+.sidebar-item {
+  margin-top: 5%;
+  padding: 10%;
+} 
+
+.content {
+  width: 84%;
+  margin-left: 16%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  padding: 3%;
+  overflow: auto;
+}
+
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  margin-left:auto;
+  gap: 4%;
+  width: 100%;
+}
+
+.charts > div {
+  padding: 3px;
+}
+
+.reset {
+  width: 30%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 2%;
+  margin: 5% 5% 5% 35%;
+}
+
+.footer {
+  background-color: rgb(0, 3, 179);
+  padding-bottom: 0px;
+  padding-top: 15px;
+  margin-top: 2%;
+  bottom: 0;
+  position: fixed;
+}
+
+.footer > img {
+  width: 26%;
+  margin: auto;
+  display: block;
+
+}
+
+.save-chart  {
+  display:flex; 
+  justify-content: center; 
+  gap:1%;
+}
+
+.dashboard-items {
+  display: flex;
+}
+
+#recent-registered {
+  box-shadow: 2px 2px 25px 2px rgb(201, 201, 201);
+  width: 25%;
+  padding: 2% 0% 2% 2%;
+  background-color: #8500BF;
+  border-radius: 5px;
+}
+
+#recent-registered > h5 {
+  color: #ececec;
+  margin-left: 5%;
+}
+
+#icon {
+  display: flex;
+}
+
+.more-info {
+  margin-left: 5%;
+  color: white;
+  display: flex;
+}
+
+#login-history {
+  box-shadow: 2px 2px 25px 2px rgb(201, 201, 201);
+  width: 25%;
+  padding: 2% 0% 2% 2%;
+  background-color: #12a0ff;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+
+#login-history > h5 {
+  color: #ececec;
+  margin-left: 5%;
+}
+
+#enrollees {
+  box-shadow: 2px 2px 25px 2px rgb(201, 201, 201);
+  width: 25%;
+  padding: 2% 0% 2% 2%;
+  background-color: #009c08;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+
+#enrollees > h5 {
+  color: #ececec;
+  margin-left: 5%;
+}
+
+#enrolled {
+  box-shadow: 2px 2px 25px 2px rgb(201, 201, 201);
+  background-color: #1288d6;
+  padding: 1%;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#today {
+  box-shadow: 2px 2px 25px 2px rgb(201, 201, 201);
+  background-color: purple;
+  padding: 1%;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#seven-days {
+  box-shadow: 2px 2px 25px 2px rgb(201, 201, 201);
+  background-color: #1288d6;
+  padding: 1%;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.chart2 {
+  box-shadow: 2px 2px 25px 2px rgb(201, 201, 201);
+  background-color: rgb(255, 255, 255);
+  /* width: 65%; */
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.chart-header {
+  background-color: rgb(192, 40, 192);
+  padding: 1%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+
+.chart-header2 {
+  background-color: rgb(192, 40, 192);
+  padding: 1%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+
+.chart-header3 {
+  background-color: rgb(192, 40, 192);
+  padding: 1%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+
+.chart-header4 {
+  background-color: #1288d6;
+  padding: 1%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+
+.chart-header5 {
+  background-color: #009c08;
+  padding: 1%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
